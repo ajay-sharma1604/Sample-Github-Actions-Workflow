@@ -1,0 +1,17 @@
+name: "Hello World Workflow"
+
+#Event that triggers the workflow when code is pushed to the main branch
+on:
+  push:
+    branches:
+      -main
+
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest  #machine provided by GitHub to run the workflow
+    steps:
+      - name: "Print Hello World"
+        run: echo "Hello, World!"  #command to print Hello World to the console
+
+        
