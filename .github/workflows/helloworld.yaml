@@ -4,7 +4,7 @@ name: "Hello World Workflow"
 on:
   push:
     branches:
-      -main
+      - main
 
 # Define the jobs to be run in the workflow
 jobs:
