@@ -6,7 +6,7 @@ on:
     branches:
       -main
 
-
+# Define the jobs to be run in the workflow
 jobs:
   hello_world:
     runs-on: ubuntu-latest  #machine provided by GitHub to run the workflow (also called as runner)
